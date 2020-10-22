@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api", "Web.Api\Web.Api.csproj", "{6D5A674D-265C-4269-AB78-684EA1EECAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Business", "Web.Business\Web.Business.csproj", "{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Data", "Web.Data\Web.Data.csproj", "{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D5A674D-265C-4269-AB78-684EA1EECAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5A674D-265C-4269-AB78-684EA1EECAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5A674D-265C-4269-AB78-684EA1EECAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5A674D-265C-4269-AB78-684EA1EECAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3DACEFA-27A5-4D8C-9641-81B31E73CCA1}
+	EndGlobalSection
+EndGlobal
