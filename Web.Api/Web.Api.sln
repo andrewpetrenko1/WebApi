@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api", "Web.Api\Web.Api.csproj", "{6D5A674D-265C-4269-AB78-684EA1EECAE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Business", "Web.Business\Web.Business.csproj", "{72EEE5A1-64C7-4637-AD72-7BC09964EDD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22} = {8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Data", "Web.Data\Web.Data.csproj", "{8B5F463F-AC11-4DFD-89A3-EEF2246C1D22}"
 EndProject
